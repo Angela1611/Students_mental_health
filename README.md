@@ -54,6 +54,9 @@ The following conclusions were reached through information extraction via SQL:
 
 The conclusions were gathered and represented in an interactive dashboard in Tableau, which can be accessed at the following [link](https://public.tableau.com/app/profile/angela161/viz/Students_mental_health/Dashboard1)
 
+![09](https://github.com/Angela1611/Students_mental_health/assets/158333155/3f210192-56ca-47db-8d6a-4dacbe68e0fc)
+
+
 ## Tech Stack
 
   MYSQL
