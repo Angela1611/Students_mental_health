@@ -316,3 +316,33 @@ WHERE
 GROUP BY
     professional_treatment;
 #RESULT: NO=87.87%, YES= 12.14%
+
+#Count by age of people with depression
+SELECT Age, COUNT(*) AS count
+FROM students_mental_health
+WHERE Depression = 'Yes'
+GROUP BY Age
+ORDER BY Age ASC;
+
+
+#Count by age of people with Anxiety
+SELECT Age, COUNT(*) AS count
+FROM students_mental_health
+WHERE Anxiety = 'Yes'
+GROUP BY Age
+ORDER BY Age ASC;
+
+#Count by age of people with Panic Attacks
+SELECT Age, COUNT(*) AS count
+FROM students_mental_health
+WHERE Panic_Attack = 'Yes'
+GROUP BY Age
+ORDER BY Age ASC;
+
+
+#Count of people with depression according to CGPA
+SELECT CGPA, COUNT(*) AS count
+FROM students_mental_health
+WHERE Depression = 'Yes'
+GROUP BY CGPA
+ORDER BY CGPA ASC;
