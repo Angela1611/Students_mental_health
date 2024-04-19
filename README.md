@@ -66,5 +66,5 @@ The conclusions were gathered and represented in an interactive dashboard in Tab
   Tableau
   
   
-_______________END OF CASE STUDY______________________
+_______________END OF CASE STUDY________________________
 
