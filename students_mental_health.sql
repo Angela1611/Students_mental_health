@@ -1,6 +1,6 @@
 USE students_mental_health;
 
-#CLEANING
+#CLEANING DATA
 #CHANGE COLUMN NAMES
 ALTER TABLE students_mental_health
 CHANGE COLUMN `Choose your gender` gender VARCHAR(50),
