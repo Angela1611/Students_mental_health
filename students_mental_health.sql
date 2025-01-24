@@ -7,7 +7,7 @@ CHANGE COLUMN `Choose your gender` gender VARCHAR(50),
 CHANGE COLUMN `Your current year of Study` year_of_study VARCHAR(50),
 CHANGE COLUMN `What is your CGPA?` CGPA VARCHAR(50),
 CHANGE COLUMN `Marital status` marital_status VARCHAR(50),
-CHANGE COLUMN `Do you have Depression?` Depression VARCHAR(50)
+CHANGE COLUMN `Do you have Depression?` Depression VARCHAR(50),
 CHANGE COLUMN `Do you have Anxiety?` Anxiety VARCHAR(50),
 CHANGE COLUMN `Do you have Panic attack?` Panic_attack VARCHAR(50),
 CHANGE COLUMN `Did you seek any specialist for a treatment?` professional_treatment VARCHAR(50);
