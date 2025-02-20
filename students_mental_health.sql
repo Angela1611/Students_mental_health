@@ -3,7 +3,7 @@ USE students_mental_health;
 #CLEANING DATA
 #CHANGE COLUMN NAMES
 ALTER TABLE students_mental_health
-CHANGE COLUMN `Choose your gender` gender VARCHAR(50)
+CHANGE COLUMN `Choose your gender` gender VARCHAR(50),
 CHANGE COLUMN `Your current year of Study` year_of_study VARCHAR(50),
 CHANGE COLUMN `What is your CGPA?` CGPA VARCHAR(50),
 CHANGE COLUMN `Marital status` marital_status VARCHAR(50),
