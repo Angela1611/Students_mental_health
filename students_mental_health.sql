@@ -14,7 +14,7 @@ CHANGE COLUMN `Did you seek any specialist for a treatment?` professional_treatm
 
 SHOW COLUMNS FROM students_mental_health;
 
-#REMOVE TEXT FROM INTEGRAL COLUMNS.
+#REMOVE TEXT FROM INTEGRAL COLUMNS
 UPDATE students_mental_health
 SET year_of_study = CAST(REGEXP_REPLACE(year_of_study, '[^0-9]+', '') AS UNSIGNED)
 WHERE year_of_study REGEXP '[0-9]';
